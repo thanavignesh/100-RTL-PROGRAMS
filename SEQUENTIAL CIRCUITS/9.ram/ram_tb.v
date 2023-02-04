@@ -7,7 +7,6 @@ module ram_tb();
 	wire [1023:0] data_out;
 	reg [1:0] delay;
 	reg [1023:0] wr_data;
-	integer success_count, error_count, test_count;
     integer i;
 	
 ram RAM0(
@@ -41,7 +40,7 @@ ram RAM0(
 	    $dumpfile("waveform.vcd");
 	    $dumpvars;
 
-		#1.3; 
+		#1; 
 		for (i=0; i<17; i=i+1) begin
 		    wr_data = $random;
 		    write_data(i, wr_data); 
