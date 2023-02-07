@@ -1,0 +1,107 @@
+$date
+	Tue Feb  7 10:44:49 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module updown_tb $end
+$var wire 4 ! Count [3:0] $end
+$var reg 1 " Clk $end
+$var reg 1 # UpOrDown $end
+$var reg 1 $ reset $end
+$scope module uut $end
+$var wire 1 " Clk $end
+$var wire 1 # UpOrDown $end
+$var wire 1 $ reset $end
+$var reg 4 % Count [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 %
+x$
+x#
+0"
+b0 !
+$end
+#2
+1$
+#5
+b1011 !
+b1011 %
+0$
+1"
+#10
+0"
+#15
+b1010 !
+b1010 %
+1"
+#20
+0"
+#25
+b1001 !
+b1001 %
+1"
+0#
+#30
+0"
+#35
+b1000 !
+b1000 %
+1"
+#40
+0"
+#45
+b111 !
+b111 %
+1"
+#50
+0"
+#55
+b110 !
+b110 %
+1"
+#60
+0"
+#65
+b101 !
+b101 %
+1"
+#70
+0"
+#75
+b110 !
+b110 %
+1"
+1#
+#80
+0"
+#85
+b111 !
+b111 %
+1"
+#90
+0"
+#95
+b1000 !
+b1000 %
+1"
+#100
+0"
+#105
+b1001 !
+b1001 %
+1"
+#110
+0"
+#115
+b1010 !
+b1010 %
+1"
+#120
+0"
